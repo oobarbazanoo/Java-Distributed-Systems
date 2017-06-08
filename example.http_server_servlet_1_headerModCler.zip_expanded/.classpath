@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="example.http_server_servlet_1/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/javaee.jar"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/javax.servlet-api.jar"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/org.eclipse.persistence.antlr.jar"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/org.eclipse.persistence.asm.jar"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/org.eclipse.persistence.core.jar"/>
+	<classpathentry kind="lib" path="work_for_http_server_servlet-1/org.eclipse.persistence.jpa.jar"/>
+	<classpathentry kind="output" path="example.http_server_servlet_1/build/classes"/>
+</classpath>

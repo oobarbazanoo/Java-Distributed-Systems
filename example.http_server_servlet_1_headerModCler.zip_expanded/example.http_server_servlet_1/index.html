@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Web Notes</title>
+	<style>
+	.right 
+	{
+		overflow: hidden;
+		min-height: 50px;
+		min-width: 600px;
+		border: 2px dashed #00f;
+		text-align: center;
+	}
+
+	.left
+	{
+		text-align: center;
+		float: left;
+		width: 300px;
+		min-height: 50px;
+		border: 2px dashed #00f;
+		margin-bottom: 10px;
+		margin-right: 10px;
+		padding: 5px;
+		background-color: #04EF40;
+	}
+
+	textarea 
+	{
+		resize: none;
+	}
+	
+	table 
+	{
+		border-collapse: collapse;
+	}
+	
+	tr:nth-child(even) {background-color: #fff;}
+	</style>	
+</head>
+	
+<body>
+	<div class="left">
+			<form method="post">
+				<textarea placeholder="Enter your note here..." rows="5" cols="39" name="aNote"></textarea>
+				<input type="submit" value="Add a note" class="block" name="butt"/>
+			</form>
+	</div> 
+	
+	<div class="right">
+		<table style="width:100%" border="1" class="right" bgcolor="#04EF40">
+		<col width="90">
+		  <tr>
+		    <th>Date</th>
+		    <th>Content</th> 
+		  </tr>
+		</table>
+	</div>
+
+</body>
+
+
+</html>
